@@ -3,5 +3,5 @@ def reformat_languages(languages)
   languages.each do |style, value|
     value.each do |name, type|
       if new_hash.has_key? (name)
-        new_hash[name]
+        new_hash[name][:style]
 end
