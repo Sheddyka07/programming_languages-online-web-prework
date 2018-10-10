@@ -5,4 +5,17 @@ def reformat_languages(languages)
       if new_hash.has_key? (name)
         new_hash[name][:style] << key 
       else 
+        new_hash[name] = type 
+        new_hash[]foor
+end
+
+
+
+
+ new_hash[form] = type
+      new_hash[form][:style] = [key]
+    end
+  end
+end	end
+new_hash
 end
