@@ -6,16 +6,9 @@ def reformat_languages(languages)
         new_hash[name][:style] << key 
       else 
         new_hash[name] = type 
-        new_hash[]foor
-end
-
-
-
-
- new_hash[form] = type
-      new_hash[form][:style] = [key]
+        new_hash[form][:style] = [key]
+      end
     end
   end
-end	end
-new_hash
+  new_hash
 end
